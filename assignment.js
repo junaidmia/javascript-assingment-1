@@ -1,3 +1,5 @@
+// https://github.com/junaidmia/javascript-assingment-1/blob/main/assignment.js
+
 // first solution
 
 function kilometerToMeter(kilo){
@@ -41,7 +43,7 @@ if(passingDays <= 10){
     price = passingDays * 100;
 }
 else if(passingDays <= 20){
-   var first10DaysCost = 10 * 50;
+   var first10DaysCost = 10 * 100;
    var remaining = passingDays - 10 ; 
    var second10DaysCost = remaining * 80;
    
@@ -56,7 +58,7 @@ else{
 } 
 return price;
 }
-var fullPrice = hotelCost(30);
+var fullPrice = hotelCost(21);
 console.log ( fullPrice );
 
 
