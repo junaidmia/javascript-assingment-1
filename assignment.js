@@ -66,16 +66,16 @@ console.log ( fullPrice );
 // fourth solution
 
 
-function long_string(friendsName) {
-    var longest = friendsName[0];
+function megaFriend(friendsName) {
+    var largest = friendsName[0];
     for (var i = 1; i < friendsName.length; i++) {
-        if (friendsName[i].length > longest.length) {
-            longest = friendsName[i];
+        if (friendsName[i].length > largest.length) {
+            largest = friendsName[i];
         }
     }
-    return longest;
+    return largest;
 }
 
 var friendsName = ["rifat", "sohan", "junaid", "abir", "ratul"];
 
-console.log(long_string(friendsName));
+console.log(megaFriend(friendsName));
